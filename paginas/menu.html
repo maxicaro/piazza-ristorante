@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <!-- Vinculacion con el link de bootstrap -CSS- de forma externa -CDN- sin descargar nada-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Vinculacion con el link de jam incons-->
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
+    <!--Vinculacion con el archivo CSS externo-->
+    <link rel="stylesheet" href="../css/estilocss.css">
+</head>
+<body>
+    <header>
+        <nav class="header_encabezado">
+            <a class="header_marca" href="../index.html">
+                <img class="header_logo" src="../imagenes/logo.png" alt="Piazza" width="120" height="32">
+            </a>
+            <a href="#lateral" class="icono">
+                <span class="jam jam-menu"></span>
+            </a>
+            
+           <ul class="nav_lista" id="lateral"> 
+            <li><a class="nav_enlace" href="../index.html">Inicio</a></li>
+            <li><a class="nav_enlace" href="./menu.html">Menu</a></li>
+            <li><a class="nav_enlace" href="./desayunos.html">Desayuno</a></li>
+            <li><a class="nav_enlace" href="./nosotros.html">Nosotros</a></li>
+            <li><a class="nav_enlace" href="./contacto.html">Contacto</a></li>
+            <li>
+                <a class="nav_movil" href="#"><span class="jam jam-close"></span></a>
+            </li>
+           </ul>
+        </nav>                     
+        </header>
+        <main>
+        <section class="fondo3">
+            <div class="contenedor_tex">
+                <h1 class="titulo">Piazza</h1>
+            </div>
+            <div class="contenedor_tex2">
+                <h2 class="titulo2">Ristorante</h2>
+            </div>
+            <div class="contenedor_tex3">
+                <h3> </h3>
+            </div>
+        </section>
+        <section class="productos1">
+          <div class="productos2">
+              <h2>Sabores de la casa</h2>
+              <p class="text_menu1">
+                En <strong>Piazza</strong> encontrarás una gran variedad de sabores para que puedas disfrutar tu almuerso y cena de la mejor manera.
+              </p>
+          </div>
+        </section>
+        <section class="margen1">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../imagenes/carosuel6.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../imagenes/carosuel7.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../imagenes/carosuel8.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../imagenes/rabas3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section class="productos3">
+          <div class="productos4">
+              <h2>Nuestro menu</h2>
+              <p class="text_menu2">
+                  En <strong>Piazza</strong> encontrarás una gran variedad de sabores para que puedas disfrutar tu almuerso y cena de la mejor manera.
+              </p>
+          </div>
+        </section> 
+        <section>
+          <div class="container text-center mt-5">
+            <div class="row mt-2">
+            <div class="col-md-12 col-md-4 col-lg-4 py-3">
+              <div class="card shadow">
+                <img src="../imagenes/menu-piazza-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pescados</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Más Información</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-md-4 col-lg-4 py-3">
+              <div class="card shadow">
+                <img src="../imagenes/menu-piazza-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Carnes</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Más Información</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-md-4 col-lg-4 py-3">
+              <div class="card shadow">
+                <img src="../imagenes/menu-piazza-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mariscos</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Más Información</a>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>
+        <div class="margen4">
+
+        </div>
+        <footer>
+          <div class="header_encabezado1">
+              
+              <a class="header_marca1" href="../index.html">
+                  
+                  <img class="header_logo1" src="../imagenes/logo.png" alt="Piazza" width="120" height="32">
+              </a>
+             
+              <div class="nav_lista1">
+                  <ul> 
+                   <p class="redess">Seguinos en :</p>
+                  <img src="../imagenes/ins1.png">
+                  <img src="../imagenes/facebook1.png">
+                  <img src="../imagenes/whatsapp4.png">
+              </ul>
+              </div>
+          </div>         
+      </footer>
+         <!-- Vinculacion con el link de bootstrap con -javascript- de forma externa -CDN- sin descargar nada-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
