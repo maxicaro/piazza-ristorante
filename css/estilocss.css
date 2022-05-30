@@ -56,8 +56,8 @@
 }
 /*Seccion fondo y titulos inicio*/
 .fondo{
-    background-image: url(../imagenes/fondop1.png);
-    height: 40rem;
+    background-image: url(../imagenes/contacto1.png);
+    height: 20rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -121,7 +121,7 @@
 /*Seccion titulos y fondo nosotros*/
 .fondo2{
     background-image: url(../imagenes/nosotros-5.png);
-    height:30rem;
+    height:20rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -156,19 +156,7 @@
     
     
 }
-.contenedor_text3{
-    border: solid 10px white;
-    margin: auto;
-    display: block;
-    width: 135px;
-    height: auto;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-bottom: 0px;
-    border-style: dashed;
-    margin-top: 14px;
 
-}
 .contenedor_text1{
     padding-top: 2rem;
     
@@ -197,7 +185,7 @@
 }
 .fondo1{
     background-image: url(../imagenes/cafeteria-19.png);
-    height: 30rem;
+    height: 20rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -280,12 +268,15 @@
 }
 /*Seccion menu*/
     .fondo3{
-    background-image: url(../imagenes/fondop1.png);
-    height:30rem;
+    background-image: url(../imagenes/menu-comida4.png);
+    height:20rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     object-fit: cover;  
+    }
+    .card-body{
+        color: #1f2023;
     }
     .text_menu1{
         color: #1f2023;
@@ -327,7 +318,7 @@
     }
     .margen4{
        
-        height: 120px;
+        height: 60px;
         
     }
 /*Seccion botones*/
@@ -392,6 +383,7 @@ h2{
 }
 .cont_productos h3{
     text-align: center;
+    color: #1f2023;
 }
 /* Seccion galeria */
 .contenedor{
@@ -420,7 +412,7 @@ h2{
 /*Seccion titulo contacto*/
 .fondo4{
     background-image: url(../imagenes/contacto1.png);
-    height:30rem;
+    height:20rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -656,9 +648,7 @@ display: block;
        border-style: dashed;
        
    }
-   .fondo{
-       height: 30rem;
-   }
+   
    
 }
 
