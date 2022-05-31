@@ -75,7 +75,7 @@
     width: 200px;
     height: 80px;
     padding-top: 10px;
-    border: solid 10px white;
+    border: solid 9px white;
     border-radius: 45%;
     border-right-width: 0px;
     border-left-width: 0px;
@@ -106,7 +106,7 @@
 
 }
 .contenedor_tex{
-    padding-top: 5rem;
+    padding-top: 4rem;
     
 }
 .contenedor_tex2{
@@ -621,7 +621,7 @@ display: block;
    }
   
    .titulo{
-       font-size: 65px;
+       font-size: 62px;
        height: 80px;
        width: 200px;
        padding-top:10px;
