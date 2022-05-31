@@ -1,0 +1,64 @@
+/*Seccion fondo y titulos inicio*/
+.fondo{
+    background-image: url(../imagenes/contacto1.png);
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    
+    
+}
+
+.titulo{
+    color: $color-principal;
+    text-align: center;
+    font-size: 65px;
+    text-shadow: -5px 10px 10px black;
+    font-family: $font-famaly;
+    width: 200px;
+    height: 80px;
+    padding-top: 9px;
+    border: solid 9px $color-principal;
+    border-radius: 45%;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    margin: auto;
+    display: block;
+}
+.titulo2{
+    color: $color-principal;
+    font-family: $font-famaly;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: -5px 10px 10px black;
+    
+    
+}
+.contenedor_tex3{
+    border: solid 7px $color-principal;
+    margin: auto;
+    display: block;
+    width: 100px;
+    height: auto;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom: 0px;
+    border-style: dashed;
+    
+
+}
+.contenedor_tex{
+    padding-top: 4rem;
+    
+}
+.contenedor_tex2{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    height:auto; 
+    margin-top: 13px;      
+    
+    
+}

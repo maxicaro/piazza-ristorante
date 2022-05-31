@@ -1,0 +1,90 @@
+/*Seccion titulo contacto*/
+.fondo4{
+    background-image: url(../imagenes/contacto1.png);
+    height:20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;  
+    }
+.contenedor_tex5{
+    color:white;
+    font-family: initial;
+    text-align: center;
+    font-size: 34px;
+    text-shadow: -5px 10px 10px black;
+    margin:0px;
+    padding-top: 16px;
+}
+:root {
+    --color-dark: #15181f;
+    --color-dark-x: #2d343f;
+    --color-dark-xx: #1f232b;
+    --color-light: #ffffff;
+    --color-grey: #f5f6f8;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: var(--color-grey);
+    color: var(--color-light);
+    letter-spacing: .05rem;
+}
+
+.bg-light {
+    background-color: var(--color-light)!important;
+}
+
+.bg-dark {
+    background-color: var(--color-dark)!important;
+}
+
+.p-6 {
+    padding: 4rem 7rem;
+}
+
+.contact-box {
+    padding: 3rem;
+}
+
+.btn {
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    min-width: 10rem;
+}
+
+.btn-outline-dark {
+    border: 2px solid var(--color-dark-xx);
+}
+
+
+.form-control {
+    background-color: var(--color-dark-xx);
+    border: 2px solid var(--color-dark-xx);
+    border-radius: .2rem;
+    padding: 1.5rem 1rem;
+}
+
+.register-bg {
+    background-image: url(../imagenes/contacto2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.testiomonial {
+    bottom: 10px
+}
+
+.contenedor_tex5{
+    color:white;
+    font-family: initial;
+    text-align: center;
+    font-size: 34px;
+    text-shadow: -5px 10px 10px black;
+    margin:0px;
+    padding-top: 16px;
+}

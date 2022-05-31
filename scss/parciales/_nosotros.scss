@@ -1,0 +1,115 @@
+/*Seccion titulos y fondo nosotros*/
+.fondo2{
+    background-image: url(../imagenes/nosotros-5.png);
+    height:20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.titulo1{
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    text-shadow: -5px 10px 10px black;
+    font-family: initial;
+    width: 200px;
+    height: 80px;
+    padding-top: 10px;
+    border: solid 10px white;
+    border-radius: 45%;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    margin: auto;
+    display: block;
+    
+}
+.titulo3{
+    color: white;
+    font-family: initial;;
+    text-align: center;
+    font-size: 34px;
+    text-shadow: -5px 10px 10px black;
+    margin:0px;
+    
+    
+}
+
+.contenedor_text1{
+    padding-top: 2rem;
+    
+}
+.contenedor_text2{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    height:auto; 
+    margin-top: 12px;      
+    
+    
+}
+.cointent{
+    
+    width: 100%;
+    height: 130px;   
+}
+/*Seccion nosotros*/
+.flex_contenedor{
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 4rem;
+    width: 75vw;
+    min-width: 280px;
+    gap: 20px;
+    
+    margin: auto;
+    
+}
+.flex_contenedor div{
+    margin: 5px;
+    color: grey;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    
+   
+}
+.imagen{
+    
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    box-shadow:  -15px -15px black;
+    border: 15px solid chocolate;
+    border-style: groove;
+    border-style: ridge;
+    
+}
+.cont1{
+    margin-top: 4rem;
+}
+.text{
+    padding: 16px;
+    
+}
+.text_producto1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.text_producto2{
+    font-size: 20px;
+    color: grey;
+}
+.negrita1{
+    color: #212529;
+}
+.negrita2{
+    color: #212529;
+}
+.negrita3{
+    color: #212529;
+}

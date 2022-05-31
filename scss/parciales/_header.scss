@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Cabecera*/
+.header_encabezado{
+    background-color: #1f2023;
+    /*background-image: url(../imagenes/cafeteria5.jpg);*/
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    
+}
+.nav_lista{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    
+}
+.nav_enlace{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header_marca{
+    width: 200px;
+    height: auto;
+    padding-left:3%;
+    
+    
+}
+.header_logo{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: solid brown;
+    object-fit: cover;
+    
+}
+.icono{
+    display: none;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+.nav_movil{
+    display: none;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

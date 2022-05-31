@@ -1,0 +1,37 @@
+/*Seccion pie de pagina*/
+
+.header_encabezado1{
+    background-color: #1f2023;
+    /*background-image: url(../imagenes/cafeteria5.jpg);*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    
+}
+.header_logo1{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: solid brown;
+    object-fit: cover;
+    
+}
+.nav_lista1{
+    list-style: none;
+    display: flex;
+    width: auto;
+    gap: 16px;
+    padding: 16px;
+}
+.nav_enlace{
+    color: white;
+    text-decoration: none;
+}
+.redess{
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 0%;
+}
