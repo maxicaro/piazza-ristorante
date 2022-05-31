@@ -35,8 +35,8 @@
     
 }
 .header_logo{
-    height: 135px;
-    width: 135px;
+    height: 110px;
+    width: 110px;
     border-radius: 50%;
     border: solid brown;
     object-fit: cover;
@@ -106,7 +106,7 @@
 
 }
 .contenedor_tex{
-    padding-top: 2rem;
+    padding-top: 4rem;
     
 }
 .contenedor_tex2{
@@ -400,14 +400,6 @@ h2{
     object-fit: cover;
     
 }
-.header_logo1{
-    height: 135px;
-    width: 135px;
-    border-radius: 50%;
-    border: solid brown;
-    object-fit: cover;
-    
-}
 
 /*Seccion titulo contacto*/
 .fondo4{
@@ -511,6 +503,14 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0px;
+    
+}
+.header_logo1{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: solid brown;
+    object-fit: cover;
     
 }
 .nav_lista1{
@@ -625,6 +625,7 @@ display: block;
        height: 80px;
        width: 200px;
        padding-top:10px;
+       
    }
    .contenedor_tex2{
        padding: 0px;
