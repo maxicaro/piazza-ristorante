@@ -529,11 +529,6 @@ body {
   background-color: #000;
   color: #fff;
   padding: 1rem;
-  /* display: flex;
-      flex-direction: column;
-  
-      justify-content: space-between;
-      align-items: center; */
   padding-top: 2rem;
 }
 
@@ -573,6 +568,14 @@ body {
 
 .h4, h4 {
   font-size: 1.5rem;
+}
+
+/*footer contacto */
+.footer1 {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  padding-top: 2rem;
 }
 
 /*Seccion @media query*/
@@ -702,8 +705,8 @@ body {
     align-items: center;
     padding-right: 0%;
   }
-  .footer {
-    margin-top: 3rem;
+  .footer1 {
+    margin-top: 2rem;
   }
 }
 
@@ -765,9 +768,6 @@ body {
   }
   .width-100 {
     width: 100%;
-  }
-  .footer {
-    margin-top: 2rem;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
