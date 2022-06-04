@@ -3,54 +3,68 @@
     margin: 0;
     box-sizing: border-box;
 }
-/*Cabecera*/
-.header_encabezado{
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    /*Seccion cabecera */
+  }
+  ul {
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  
+  .header {
     background-color: #1f2023;
-    /*background-image: url(../imagenes/cafeteria5.jpg);*/
     padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0px;
-    
-}
-.nav_lista{
-    list-style: none;
-    display: flex;
-    gap: 16px;
-    padding: 16px;
-    
-}
-.nav_enlace{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
-.header_marca{
-    width: 200px;
+  }
+ 
+  .header__marca {
+    width: 180px;
     height: auto;
-    padding-left:3%;
-    
-    
-}
-.header_logo{
-    height: 110px;
+    padding-left:3%; 
+  }
+  
+  .header__logo {
+    height:110px;
     width: 110px;
     border-radius: 50%;
     border: solid brown;
     object-fit: cover;
-    
-}
-.icono{
+  }
+  .nav__lista {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 16px; */
+    /* (px, rem), %, vh. vw */
+    padding: 16px;
+  }
+  .nav__item {
+    margin-left: 16px;
+  }
+  .nav__item {
+    margin-left: 16px;
+  }
+  
+  .nav__item--close {
+    display: none;
+  }
+  
+  .nav__enlace {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav__enlace:hover {
+    color: grey;
+  }
+  .header__open {
     display: none;
     font-size: 40px;
     color: white;
     text-decoration: none;
-}
-.nav_movil{
-    display: none;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
+  }

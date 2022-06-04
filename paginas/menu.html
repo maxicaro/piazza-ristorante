@@ -13,30 +13,42 @@
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
 
     <!--Vinculacion con el archivo CSS externo-->
-    <link rel="stylesheet" href="../css/estilocss.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header>
-        <nav class="header_encabezado">
-            <a class="header_marca" href="../index.html">
-                <img class="header_logo" src="../imagenes/logo.png" alt="Piazza" width="120" height="32">
-            </a>
-            <a href="#lateral" class="icono">
-                <span class="jam jam-menu"></span>
-            </a>
-            
-           <ul class="nav_lista" id="lateral"> 
-            <li><a class="nav_enlace" href="../index.html">Inicio</a></li>
-            <li><a class="nav_enlace" href="./menu.html">Menu</a></li>
-            <li><a class="nav_enlace" href="./desayunos.html">Desayunos</a></li>
-            <li><a class="nav_enlace" href="./nosotros.html">Nosotros</a></li>
-            <li><a class="nav_enlace" href="./contacto.html">Contacto</a></li>
-            <li>
-                <a class="nav_movil" href="#"><span class="jam jam-close"></span></a>
+   <!-- Header -> logotipo, menu navegacion, barra de busqueda, iconos -->
+   <header class="header">
+    <a class="header__marca" href="../index.html">
+        <img class="header__logo" src="../imagenes/logo.png" alt="logotipo spotify" width="120" height="32">
+    </a>
+
+    <a href="#lateral" class="header__open">
+        <span class="jam jam-menu"></span>
+    </a>
+    <!-- Nav -> representa el contenedor de mi futuro menu de navegacion -->
+    <nav class="nav" id="lateral">
+        <ul class="nav__lista">
+            <li class="nav__item">
+                <a class="nav__enlace" href="../index.html">Inicio</a>
             </li>
-           </ul>
-        </nav>                     
-        </header>
+            <li class="nav__item">
+                <a class="nav__enlace" href="./nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__enlace" href="./desayunos.html">Desayunos</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__enlace" href="./menu.html">Menú</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__enlace" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav__item nav__item--close">
+                <a class="nav__enlace" href="#"><span class="jam jam-close"></span></a>
+            </li>
+        </ul>
+    </nav>
+</header>
         <main>
         <section class="fondo3">
             <div class="contenedor_tex">
@@ -131,23 +143,19 @@
 
         </div>
         </main>
-        <footer>
-          <div class="header_encabezado1">
-              
-              <a class="header_marca1" href="../index.html">
-                  
-                  <img class="header_logo1" src="../imagenes/logo.png" alt="Piazza" width="120" height="32">
-              </a>
-             
-              <div class="nav_lista1">
-                  <ul> 
-                   <p class="redess">Seguinos en :</p>
-                  <img src="../imagenes/ins1.png">
-                  <img src="../imagenes/facebook1.png">
-                  <img src="../imagenes/whatsapp4.png">
-              </ul>
+        <footer class="footer">
+          <div class="footer__contacto">
+              <h4 class="texto_contacto">Seguinos a nuestras redes</h4>
+              <div class="footer__redes">
+                  <span class="jam jam-instagram"></span>
+                  <span class="jam jam-facebook-square"></span>
+                  <span class="jam jam-whatsapp"></span>
               </div>
-          </div>         
+          </div>
+          <div class="footer__marca">
+              <img class="footer__logo" src="../imagenes/logo.png" alt="logotipo spotify" width="120" height="32">
+              <p class="footer__texto">Derechos Reservados - <span>Piazza</span></p>
+          </div>
       </footer>
          <!-- Vinculacion con el link de bootstrap con -javascript- de forma externa -CDN- sin descargar nada-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

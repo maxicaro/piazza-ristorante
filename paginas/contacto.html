@@ -10,34 +10,44 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
-    <link href="../css/estilocss.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
 
     <title>Contacto</title>
   </head>
   <body>
-    <header>
-        <section>
-        <nav class="header_encabezado">
-            <a class="header_marca" href="../index.html">
-                <img class="header_logo" src="../imagenes/logo.png" alt="Piazza" width="120" height="32">
-            </a>
-            <a href="#lateral" class="icono">
-                <span class="jam jam-menu"></span>
-            </a>
-            
-           <ul class="nav_lista" id="lateral"> 
-            <li><a class="nav_enlace" href="../index.html">Inicio</a></li>
-            <li><a class="nav_enlace" href="./menu.html">Menu</a></li>
-            <li><a class="nav_enlace" href="./desayunos.html">Desayunos</a></li>
-            <li><a class="nav_enlace" href="./nosotros.html">Nosotros</a></li>
-            <li><a class="nav_enlace" href="./contacto.html">Contacto</a></li>
-            <li>
-                <a class="nav_movil" href="#"><span class="jam jam-close"></span></a>
+     <!-- Header -> logotipo, menu navegacion, barra de busqueda, iconos -->
+   <header class="header">
+    <a class="header__marca" href="../index.html">
+        <img class="header__logo" src="../imagenes/logo.png" alt="logotipo spotify" width="120" height="32">
+    </a>
+
+    <a href="#lateral" class="header__open">
+        <span class="jam jam-menu"></span>
+    </a>
+    <!-- Nav -> representa el contenedor de mi futuro menu de navegacion -->
+    <nav class="nav" id="lateral">
+        <ul class="nav__lista">
+            <li class="nav__item">
+                <a class="nav__enlace" href="../index.html">Inicio</a>
             </li>
-           </ul>
-        </nav>
-        </section>                     
-        </header>
+            <li class="nav__item">
+                <a class="nav__enlace" href="./nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__enlace" href="./desayunos.html">Desayunos</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__enlace" href="./menu.html">Menú</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__enlace" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav__item nav__item--close">
+                <a class="nav__enlace" href="#"><span class="jam jam-close"></span></a>
+            </li>
+        </ul>
+    </nav>
+</header>
         <main>
         <section class="fondo4">
             <div class="contenedor_tex">
@@ -97,28 +107,24 @@
                         </div>
                         <button class="btn btn-primary width-100">Regístrate</button>
                     </form>
-                    <small class="d-inline-block text-muted mt-5">Todos los derechos reservados | © 2019 Templune</small>
+                    <small class="d-inline-block text-muted mt-5">Todos los derechos reservados | © 2022 Piazza</small>
                 </div>
            </div>
        </div>
    </section>
-   <footer>
-    <div class="header_encabezado1">
-        
-        <a class="header_marca1" href="../index.html">
-            
-            <img class="header_logo1" src="../imagenes/logo.png" alt="Piazza" width="120" height="32">
-        </a>
-       
-        <div class="nav_lista1">
-            <ul> 
-             <p class="redess">Contactanos en :</p>
-            <img src="../imagenes/ins1.png">
-            <img src="../imagenes/facebook1.png">
-            <img src="../imagenes/whatsapp4.png">
-        </ul>
+   <footer class="footer">
+    <div class="footer__contacto">
+        <h4 class="texto_contacto">Seguinos a nuestras redes</h4>
+        <div class="footer__redes">
+            <span class="jam jam-instagram"></span>
+            <span class="jam jam-facebook-square"></span>
+            <span class="jam jam-whatsapp"></span>
         </div>
-    </div>         
+    </div>
+    <div class="footer__marca">
+        <img class="footer__logo" src="../imagenes/logo.png" alt="logotipo spotify" width="120" height="32">
+        <p class="footer__texto">Derechos Reservados - <span>piazza</span></p>
+    </div>
 </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

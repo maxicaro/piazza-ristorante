@@ -8,38 +8,32 @@
   box-sizing: border-box;
 }
 
-/*Cabecera*/
-.header_encabezado {
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /*Seccion cabecera */
+}
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.header {
   background-color: #1f2023;
-  /*background-image: url(../imagenes/cafeteria5.jpg);*/
   padding: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0px;
 }
 
-.nav_lista {
-  list-style: none;
-  display: flex;
-  gap: 16px;
-  padding: 16px;
-}
-
-.nav_enlace {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.header_marca {
-  width: 200px;
+.header__marca {
+  width: 180px;
   height: auto;
   padding-left: 3%;
 }
 
-.header_logo {
+.header__logo {
   height: 110px;
   width: 110px;
   border-radius: 50%;
@@ -47,18 +41,42 @@
   object-fit: cover;
 }
 
-.icono {
+.nav__lista {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* gap: 16px; */
+  /* (px, rem), %, vh. vw */
+  padding: 16px;
+}
+
+.nav__item {
+  margin-left: 16px;
+}
+
+.nav__item {
+  margin-left: 16px;
+}
+
+.nav__item--close {
   display: none;
-  font-size: 40px;
+}
+
+.nav__enlace {
   color: white;
   text-decoration: none;
 }
 
-.nav_movil {
+.nav__enlace:hover {
+  color: grey;
+}
+
+.header__open {
   display: none;
+  font-size: 40px;
   color: white;
   text-decoration: none;
-  font-size: 20px;
 }
 
 /*Seccion fondo y titulos inicio*/
@@ -340,6 +358,7 @@ a:hover {
   background-color: #1f2023;
   border-radius: 25px;
   border: solid 7px #1f2023;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.23));
 }
 
 .boton {
@@ -349,6 +368,7 @@ a:hover {
   border-radius: 25px;
   text-decoration: none;
   font-size: 16px;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.23));
 }
 
 .boton4 {
@@ -505,17 +525,45 @@ body {
 }
 
 /*Seccion pie de pagina*/
-.header_encabezado1 {
-  background-color: #1f2023;
-  /*background-image: url(../imagenes/cafeteria5.jpg);*/
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  /* display: flex;
+      flex-direction: column;
+  
+      justify-content: space-between;
+      align-items: center; */
+  padding-top: 2rem;
+}
+
+.footer__contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.footer__redes {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding-right: 4rem;
+  font-size: 30px;
+}
+
+.footer__marca {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0px;
+  border-top: 2px solid #1f2023;
+  padding: 2rem 0;
+  margin-top: 2rem;
 }
 
-.header_logo1 {
+.footer__logo {
   height: 110px;
   width: 110px;
   border-radius: 50%;
@@ -523,24 +571,8 @@ body {
   object-fit: cover;
 }
 
-.nav_lista1 {
-  list-style: none;
-  display: flex;
-  width: auto;
-  gap: 16px;
-  padding: 16px;
-}
-
-.nav_enlace {
-  color: white;
-  text-decoration: none;
-}
-
-.redess {
-  color: white;
-  font-size: 19px;
-  text-align: center;
-  margin-bottom: 0%;
+.h4, h4 {
+  font-size: 1.5rem;
 }
 
 /*Seccion @media query*/
@@ -549,6 +581,14 @@ body {
     flex-direction: column;
     height: auto;
     text-align: center;
+  }
+  .footer__marca {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .header {
+    flex-direction: column;
+    flex-direction: row;
   }
 }
 
@@ -651,22 +691,14 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .nav_lista {
+  .nav {
     display: none;
   }
-  .header_encabezado1 {
-    flex-direction: column;
-  }
-  .header_logo {
-    width: 90px;
-    height: 90px;
-  }
-  .header_logo1 {
-    width: 90px;
-    height: 90px;
-  }
-  .icono {
+  .header__open {
     display: block;
+  }
+  .texto_contacto {
+    font-size: 21px;
   }
   #lateral {
     display: block;
@@ -682,11 +714,24 @@ body {
   #lateral:target {
     right: 0;
   }
-  .nav_movil {
+  .nav__lista {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    text-align: center;
+    font-size: 20px;
+  }
+  .nav__item--close {
     display: block;
   }
-  .nav_movil {
-    margin-top: 16px;
+  .footer__logo {
+    height: 90px;
+    width: 90px;
+  }
+  .header__logo {
+    height: 90px;
+    width: 90px;
   }
   .carousel-item img {
     border: solid black 0px;
@@ -703,6 +748,9 @@ body {
   }
   .width-100 {
     width: 100%;
+  }
+  .footer {
+    margin-top: 2rem;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

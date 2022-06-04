@@ -5,7 +5,14 @@
         flex-direction: column;
         height: auto;
         text-align: center;
-    
+    }
+    .footer__marca{
+        flex-direction: column;
+        gap:40px ;
+      }
+      .header{
+        flex-direction: column;
+        flex-direction: row;
     }
    
 }
@@ -130,29 +137,19 @@ display: block;
 
 }
 @media only screen and (max-width: 600px){
-    .nav_lista{
+    .nav{
         display: none;
-       
     }
-   
-    .header_encabezado1{
-        flex-direction: column;
-        
-    }
-    
-    .header_logo{
-        width: 90px;
-        height: 90px;
-    }
-    .header_logo1{
-        width: 90px;
-        height: 90px;
-       
-    }
-    .icono{
+
+    .header__open {
         display: block;
     }
-    #lateral{
+    .texto_contacto{
+        font-size: 21px;
+        
+        
+    }
+    #lateral {
         display: block;
         background-color: rgba(0, 0, 0, 0.8);
         width: 80%;
@@ -163,17 +160,29 @@ display: block;
         z-index: 100;
         transition: right 1s;
         
-    }
-    #lateral:target{
+      }
+      #lateral:target {
         right: 0;
-    }
-    .nav_movil{
+      }
+      .nav__lista{
+          height: 100%;
+          flex-direction: column;
+          justify-content: center;
+          gap: 4rem;
+          text-align: center;
+          font-size: 20px;
+      }
+      .nav__item--close {
         display: block;
-       
-    }
-    .nav_movil{
-        margin-top: 16px;
-    }
+      }
+      .footer__logo{
+          height: 90px;
+          width: 90px;
+      }
+      .header__logo{
+        height: 90px;
+        width: 90px;
+      }
     .carousel-item img{
         
         border: solid black 0px; 
@@ -195,6 +204,8 @@ display: block;
     .width-100 {
         width: 100%;
     }
-    
+    .footer{
+        margin-top: 2rem;
+    }
 }
 

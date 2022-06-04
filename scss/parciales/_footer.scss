@@ -1,37 +1,54 @@
 /*Seccion pie de pagina*/
 
-.header_encabezado1{
-    background-color: #1f2023;
-    /*background-image: url(../imagenes/cafeteria5.jpg);*/
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    /* display: flex;
+      flex-direction: column;
+  
+      justify-content: space-between;
+      align-items: center; */
+      padding-top: 2rem;
+      
+  }
+  
+  .footer__contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 1rem;
+    
+  }
+  
+  .footer__redes {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-right: 4rem;
+    font-size: 30px;
+    
+  }
+  
+  .footer__marca {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0px;
+    border-top: 2px solid #1f2023;
+    padding: 2rem 0;
+    margin-top: 2rem;
     
-}
-.header_logo1{
-    height: 110px;
+  }
+  .footer__logo {
+    height:110px;
     width: 110px;
     border-radius: 50%;
     border: solid brown;
     object-fit: cover;
     
-}
-.nav_lista1{
-    list-style: none;
-    display: flex;
-    width: auto;
-    gap: 16px;
-    padding: 16px;
-}
-.nav_enlace{
-    color: white;
-    text-decoration: none;
-}
-.redess{
-    color: white;
-    font-size: 19px;
-    text-align: center;
-    margin-bottom: 0%;
+  }
+  .h4, h4 {
+    font-size: 1.5rem;
 }
