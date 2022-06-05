@@ -24,6 +24,7 @@
     padding-right: 4rem;
     font-size: 30px;
     
+    
   }
   
   .footer__marca {
@@ -47,10 +48,25 @@
   .h4, h4 {
     font-size: 1.5rem;   
   }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+ 
 /*footer contacto */
-.footer1 {
+
+  .footer1 {
   background-color: #000;
   color: #fff;
   padding: 1rem;
     padding-top: 2rem;  
   }
+  /*footer nosotros */
+  
+  .footer2 {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 7rem;  
+    }
+  
