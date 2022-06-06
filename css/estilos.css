@@ -19,8 +19,8 @@ ul {
 }
 
 .header {
-  background-color: #1f2023;
-  padding: 1rem;
+  background-color: black;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -81,7 +81,7 @@ ul {
 
 /*Seccion fondo y titulos inicio*/
 .fondo {
-  background-image: url(../imagenes/contacto1.png);
+  background-image: url(../imagenes/slider-2.png);
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,7 +141,7 @@ ul {
 
 /*Seccion titulos y fondo nosotros*/
 .fondo2 {
-  background-image: url(../imagenes/nosotros-5.png);
+  background-image: url(../imagenes/slider-4.png);
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -262,7 +262,7 @@ ul {
 }
 
 .fondo1 {
-  background-image: url(../imagenes/cafeteria-19.png);
+  background-image: url(../imagenes/slider-3.png);
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -285,7 +285,7 @@ ul {
 
 /*Seccion menu*/
 .fondo3 {
-  background-image: url(../imagenes/menu-comida4.png);
+  background-image: url(../imagenes/contacto2.png);
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -434,7 +434,7 @@ h2 {
 
 /*Seccion titulo contacto*/
 .fondo4 {
-  background-image: url(../imagenes/contacto1.png);
+  background-image: url(../imagenes/slider-2.png);
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -784,6 +784,9 @@ a {
   }
   .width-100 {
     width: 100%;
+  }
+  .fondo4 {
+    margin-bottom: 2rem;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
