@@ -294,7 +294,8 @@ ul {
 }
 
 .card-body {
-  color: #1f2023;
+  color: white;
+  background-color: #1f2023;
 }
 
 .text_menu1 {
@@ -786,10 +787,16 @@ a {
     width: 100%;
   }
   .fondo4 {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
   .text {
     text-align: left;
+  }
+  .productos1 {
+    margin: 0;
+  }
+  .fono-cotacto {
+    background-color: var(--color-dark) !important;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
