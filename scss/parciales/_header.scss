@@ -58,15 +58,30 @@ body {
   .nav__enlace {
     color: white;
     text-decoration: none;
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
   }
   
-  .nav__enlace:hover {
+  /*.nav__enlace:hover {
     color: grey;
-  }
+  }*/
   .header__open {
     display: none;
     font-size: 40px;
     color: white;
     text-decoration: none;
   }
- 
+  .nav__enlace:after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+  .nav__enlace:hover::after{
+     width: 100%;
+   }
