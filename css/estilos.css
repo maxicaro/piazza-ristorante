@@ -378,6 +378,10 @@ a:hover {
   background-color: #988067;
 }
 
+.menupiazza {
+  display: none;
+}
+
 /*Seccion botones*/
 .boton2 {
   text-align: center;
@@ -839,7 +843,7 @@ a {
     width: 100%;
   }
   .fondo4 {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
   .text {
     text-align: left;
@@ -859,6 +863,9 @@ a {
   }
   .margen1 {
     background-image: url(../imagenes/contacto1.png);
+  }
+  .menupiazza {
+    display: block;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
