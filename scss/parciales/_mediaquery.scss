@@ -239,7 +239,19 @@ display: block;
     }
      .fono-cotacto{
         background-color: var(--color-dark)!important;
-     }
-}
+    }
+    .flex-caption{
+        position: absolute;
+        top: 48%;
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+        
+    }
+    .margen1{
+        background-image: url(../imagenes/contacto1.png);
+    }
+    
+}   
    
 

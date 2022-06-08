@@ -35,7 +35,7 @@
     .carousel-item img{
         height: 700px;
         object-fit:cover;
-        border: solid black 10px;
+        opacity: 0.9;
         
     }
     .productos4{
@@ -46,11 +46,22 @@
         margin: 7% 1.3rem 5% 1.3rem;
         
     }
-    .margen1{
-        background-image: url(../imagenes/contacto1.png);
-    }
-    .margen4{
+       .margen4{
        
-        height: 60px;
-        
+        height: 60px;  
     }
+    .flex-caption{
+        position: absolute;
+        top: 46%;
+        text-align: center;
+        width: 100%;
+        font-size: 55px;
+    }
+   .btn-primary{
+     background-color: sienna;
+     border: #1f2023;
+   }
+    .btn-primary:hover{
+     background-color: #988067;
+    }
+    
