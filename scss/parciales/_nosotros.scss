@@ -114,3 +114,15 @@
 .negrita3{
     color: #212529;
 }
+.firma{
+    
+    color: #212529;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-right: 5rem;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 30px;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.23));
+}
