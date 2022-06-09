@@ -897,5 +897,8 @@ a {
   .menupiazza {
     display: block;
   }
+  .firma {
+    font-size: 24px;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
