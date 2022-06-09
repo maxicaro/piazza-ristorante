@@ -816,7 +816,18 @@ a {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
+  .header__marca {
+    width: 0px;
+    height: auto;
+    padding-left: 3%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header_marca {
+    width: 0;
+  }
   .nav {
     display: none;
   }
