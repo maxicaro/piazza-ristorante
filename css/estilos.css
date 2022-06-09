@@ -714,8 +714,8 @@ a {
   }
 }
 
-@media (min-width: 430px) {
-  /*600px*/
+@media (min-width: 500px) {
+  /*430px*/
   .cont_productos {
     flex-direction: row;
     height: 250px;
