@@ -733,10 +733,13 @@ a {
   }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1400px) {
   .firma {
     padding-top: 2rem;
     filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.23));
+  }
+  .footer2 {
+    margin-top: 2rem;
   }
 }
 
