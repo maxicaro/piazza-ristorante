@@ -1,0 +1,20 @@
+
+/* Mapas de estilos */
+$titulos:(
+    color: #fff,
+     fuente: initial,
+     alineacion: center,
+     tamano: 34px,
+     sombra: -5px 10px 10px black,
+     margen: 0px,
+
+);
+
+.titulo3 {
+    color: map-get($titulos , color );
+    font-family: map-get($titulos ,fuente);
+    text-align: map-get($titulos ,alineacion);
+    font-size: map-get($titulos ,tamano);
+    text-shadow: map-get($titulos ,sombra);
+    margin:map-get($titulos ,margen);;
+  }

@@ -1,6 +1,16 @@
 /* Este es el archivo principal de sass */
 /* Importando todos los parciales de mis estilos */
 /* Es importante el orden dev importacion */
+/* Mapas de estilos */
+.titulo3 {
+  color: #fff;
+  font-family: initial;
+  text-align: center;
+  font-size: 34px;
+  text-shadow: -5px 10px 10px black;
+  margin: 0px;
+}
+
 /* Creacion de varable css sass */
 * {
   padding: 0;
