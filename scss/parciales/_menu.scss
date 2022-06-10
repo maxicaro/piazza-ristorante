@@ -57,12 +57,16 @@
         width: 100%;
         font-size: 55px;
     }
-   .btn-primary{
-     background-color: sienna;
-     border: #1f2023;
-   }
-    .btn-primary:hover{
-     background-color: #988067;
+   
+    .card{
+        cursor: default;
+        transition: all 400ms ease;
+        border-radius: 6px;
+    }
+    .card:hover{
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+        transform: translateY(-3%);
+        
     }
     .menupiazza{
         display: none;
