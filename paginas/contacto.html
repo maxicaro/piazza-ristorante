@@ -86,16 +86,16 @@
                         <div class="form-row mb-2">
                             <div class="form-group col-md-6">
                                 <label class="font-weight-bold">Nombre <span class="text-danger">*</span></label>
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Tu nombre">
+                                <input required type="text" name="name" id="name" class="form-control" placeholder="Tu nombre">
                             </div>
                             <div class="form-group col-md-6">
                                 <label class="font-weight-bold">Apellido <span class="text-danger">*</span></label>
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Tu apellido">
+                                <input required type="text" name="name" id="name" class="form-control" placeholder="Tu apellido">
                             </div>
                         </div>
                         <div class="form-group mb-3">
                             <label class="font-weight-bold">Correo electrónico <span class="text-danger">*</span></label>
-                            <input type="email" name="email" id="email" class="form-control" placeholder="Ingresa tu correo electrónico">
+                            <input type="text" name="email" id="email" class="form-control" required placeholder="Ingresa tu correo electrónico">
                         </div>
                         <div class="form-group mb-3">
                             <label class="font-weight-bold">Comentarios <span class="text-danger">*</span></label>
@@ -110,7 +110,7 @@
                         <button type="submit" class="btn btn-dark width-100">Envíar</button>
                     </form>
                     <small class="d-inline-block text-muted mt-5"> Derechos reservados por Piazza ristorante| © 2022</small>
-                    <a href="mailto:caromaximiliano53@gmail.com" id="trucazo"></a>
+                    <a href="mailto:caromaximiliano53@gmail.com" id="trucazo">mail</a>
                 </div>
            </div>
        </div>
@@ -139,7 +139,7 @@
      const $buttonMailto= document.querySelector('#trucazo')
 
      $form.addEventListener('submit',handleSubmit)
-     
+
      function handleSubmit(event){
         event.preventDefault()
         const form = new FormData(this)
